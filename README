@@ -1,0 +1,12 @@
+This is Perl module template for using dzil. It is intended to inherit from
+the Perl module template directory above it.
+
+It should likely be installed under your main pkg/perl/ directory.
+
+For example:
+
+    cd $HOME/src/pkg/perl/
+    git clone https://github.com/rafl/perl-dzil-pkg.git dzil
+    cd $HOME/src/
+    pkg new --from=pkg/perl/dzil --module=Foo::Bar foo-bar-pm
+
